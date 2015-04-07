@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sample"/>
+
+    <View
+        android:id="@+id/chatColorBar"
+        android:layout_toRightOf="@+id/profileImage"
+        android:layout_width="8dp"
+        android:layout_height="85dp"
+        android:background="#e770ab"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/chatMajorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/chatColorBar"
+        android:textSize="15dp"
+        android:textColor="#88000000"
+        android:text="Chung 133"/>
+
+    <TextView
+        android:id="@+id/chatNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/chatColorBar"
+        android:gravity="center"
+        android:layout_below="@+id/chatMajorText"
+        android:layout_marginTop="3dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#DD000000"
+        android:text="Sultan Khan"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/chatMessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chatNameText"
+        android:layout_toRightOf="@+id/chatColorBar"
+        android:layout_marginTop="3dp"
+        android:textSize="15dp"
+        android:textColor="#99000000"
+        android:text="MWF"/>
+
+
+</RelativeLayout>

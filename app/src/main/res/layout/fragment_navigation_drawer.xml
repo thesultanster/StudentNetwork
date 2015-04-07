@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context="myapplication.example.sultan.testing.NavigationDrawerFragment"
+    android:background="#BB575266">
+
+    <ImageButton
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/profile_button"
+        />
+
+    <ImageButton
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/email_button"
+        />
+
+    <ImageButton
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedule"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@mipmap/days"
+        />
+
+    <ImageButton
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/chat_button"
+        />
+
+</RelativeLayout>
